@@ -1,0 +1,329 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat';
+
+}
+
+
+/* Heading */
+
+
+.scroll-progress-indicator{
+  height: 4px;
+  width: 0%;
+  background: #a3f7bf ;
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  z-index: 500;
+  /* box-shadow: 0 -1px 8px 2px rgba(41, 161, 156, 0.3 ); */
+
+}
+
+.DownImg{
+  border-radius: 100%;
+  width: 80%;
+  margin: 2%;
+}
+
+  .xyz{
+    /* background-image: linear-gradient(to bottom, transparent 50%, #393e46 50%),
+                      linear-gradient(to right, #222831 50%, #393e46 50%);
+    background-size: 10px 10px, 10px 10px; */
+    background-repeat: repeat;
+    background-image: url("pxl.png");
+    background-size: 300px 300px,300px 300px;
+  }
+
+.front-part{
+  align-items: center;
+}
+
+.main-text{
+  padding-top: 2%;
+  font-weight:700;
+  font-size: 3rem;
+  color: #FFF
+}
+
+.main-sub-text{
+  font-weight: normal;
+  color: #a3f7bf;
+}
+
+.main-code-text{
+  font-weight: normal;
+  color: #FFF;
+  animation: type 4s steps(20);
+  overflow:hidden;
+  white-space: nowrap;
+  font-family: consolas;
+  border-right: 2.5px solid #FFF;
+  width:20ch;
+  margin-bottom: 5%;
+}
+@keyframes type {
+  0%{
+    width:0ch;
+  }
+  100%{
+    width: 20ch;
+  }
+
+}
+
+.big-heading{
+  font-size: 2.5rem;
+  line-height: 2;
+  font-weight: normal;
+  color: white;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.desc{
+  font-weight:normal;
+  align-items: flex-start;
+  color: #FFFFFF
+}
+
+.main-content{
+
+}
+
+#title {
+  background-color: #222831;
+}
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+  background-color: #393e46;
+  position: relative;
+  z-index: 1;
+}
+
+#qualification {
+  background-color: #29a19c;
+  color: #fff;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+#my-skills {
+  padding: 100px;
+
+}
+#cta{
+  background-color: #222831;
+
+}
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.navbar-brand {
+  font-family: "Orbitron";
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+/* Download Buttons */
+.download-buttons {
+  margin: 2% 0% 2% 0;
+}
+
+.rimg{
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  padding: 10;
+}
+
+.title-img {
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+.rotated {
+  transform: rotate(20deg);
+}
+
+
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+.symbs {
+  color: #a3f7bf;
+}
+
+.symbs:hover {
+  color: #29a19c;
+}
+
+.feat-font {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.feat-p {
+  color: #8f8f8f;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.feat-d {
+  padding: 40px;
+}
+
+/* Testimonial Section */
+
+.carousel-header{
+  padding: 7% 0% 2%;
+  font-size: 2rem;
+}
+
+.carousel-header-text{
+
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.carousel-item {
+  padding: 1% 15% 7%;
+}
+.qual-text{
+font-size: 3rem;
+line-height: 1;
+}
+.test-img {
+  width: 5%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.edi-img{
+  float: right;
+  margin-right : 30px;
+  width: 15%;
+  padding: 2%;
+}
+.skill-row{
+  padding: inherit;
+  width: 50%;
+  margin:150px auto 100px auto;
+  text-align: left;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.comp-img{
+  float: left;
+  margin-right: 30px;
+  width: 15%;
+  padding: 2%;
+}
+
+.skill-row{
+  padding: inherit;
+  width: 50%;
+  margin:10% auto 10% auto;
+  text-align: left;
+}
+
+.skill-txt{
+  font-weight: bold;
+}
+
+#project{
+  background-color: #393e46;
+}
+
+.project-txt{
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.download-btn {
+  margin:1%;
+}
+
+.cta-txt{
+  color: #fff;
+}
+
+.c1{
+  padding: 5% 20% 6%;
+}
+.c2{
+padding: 7% 15%;
+background-color: #fff;
+}
+.social-icon{
+  padding: 0 1%;
+}
+
+.footer-link{
+  text-decoration: none;
+  color: #393e46;
+}
+
+.chev-link{
+  text-decoration: none;
+  color: #fff;
+  padding: 1%;
+}
+
+.chev-link:hover{
+  color: a3f7bf
+}
+
+.footer-p{
+  color: grey;
+}
+@media (max-width:1028px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+  }
+
+  #title {
+    text-align: center;
+  }
+  .navbar{
+    text-align: left;
+  }
+}
